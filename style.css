@@ -1,3 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: bisque;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background */
+    padding: 15px 30px;
+}
+
+/* Logo Styling */
+.logo {
+    color:pink;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav_links
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0 ;
+    padding: 0 ;
+    align-items: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
 
 
 
