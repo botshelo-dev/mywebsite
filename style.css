@@ -37,5 +37,10 @@ html{
     transition: color 0.3s ease;
 }
 
+.nav_links a:hover{
+    color: blue;
+
+}
+
 
 
