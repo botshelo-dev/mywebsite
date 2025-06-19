@@ -75,9 +75,17 @@ html{
 }
 
 .about_container{
-    text-align: center;
-    text-decoration: solid;
-    margin: 20px auto;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  overflow: auto; /* Fix float breaking layout */
+  text-align: left;
+  background-color: #f9f9f9; /* Subtle background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  outline-color: red;
+    
 
 }
 
