@@ -103,12 +103,21 @@ body{
 
 .img_right{
     float: right;
-    width: 300px;
+  width: 300px;
   height: auto;
   margin: 0 0 20px 20px; /* Push away from text */
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  
+}
+
+.image_area{
     
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 .city {
@@ -131,6 +140,10 @@ body{
 
 .button_about:hover {
   background-color: #0056b3;
+}
+
+.heading_about{
+    float: left;
 }
 
 
