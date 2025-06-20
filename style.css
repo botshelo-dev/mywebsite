@@ -34,6 +34,7 @@ body{
     margin: 0 ;
     padding: 0 ;
     align-items: center;
+    gap: 30px;
 }
 
 .nav_links a {
@@ -64,6 +65,9 @@ body{
     text-align: center;
     background-color: lightgrey;
     
+}
+.para{
+    float: left;
 }
 
 .button {
