@@ -168,5 +168,36 @@ display: flex;
   text-transform: uppercase;
 }
 
+.image_row {
+
+  
+
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.image-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-list li {
+  margin: 0;
+}
+
+.image-list img {
+  width: 400px; /* Set a fixed, visible size */
+  height: auto;
+  display: block;
+}
+
 
 
