@@ -175,8 +175,9 @@ display: flex;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 
@@ -185,8 +186,8 @@ display: flex;
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .image-list li {
