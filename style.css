@@ -1,0 +1,294 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: beige;
+
+}
+
+.container{
+    background-color: bisque;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white; /* Dark background */
+    padding: 15px 30px;
+}
+
+/* Logo Styling */
+.logo {
+    color:rgb(192, 235, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav_links
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0 ;
+    padding: 0 ;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav_links a:hover{
+    color: blue;
+
+}
+
+.heading {
+
+    padding: 50px 20px;
+    margin: auto;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sect{
+    padding: 0;
+    text-align: center;
+    background-color: lightgrey;
+    
+}
+.para{
+     
+
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #007BFF; /* Bootstrap blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.about_container{
+
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 40px;
+  position: relative;
+  background: linear-gradient(135deg, #fdfdfd, #e6e6e6);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  
+    
+
+}
+
+
+.img_right{
+
+
+
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+  
+  
+}
+
+.image_area{
+    
+
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-width: 280px;
+}
+ 
+
+.city{
+
+   flex: 1;
+  min-width: 300px;
+}
+
+.button_about{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.button_about:hover {
+  background-color: #0056b3;
+}
+
+.heading_about{
+    margin-top: 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.image_row {
+
+  
+
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.image-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-list li {
+  margin: 0;
+}
+
+.image-list img {
+  width: 400px; /* Set a fixed, visible size */
+  height: auto;
+  display: block;
+}
+
+.blog_container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.Blog {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Blog h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* General form container */
+#contact {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Form wrapper */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Form headings */
+#contact h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+#contact p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #777;
+}
+
+/* Form elements */
+#contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact select,
+#contact textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border 0.3s ease-in-out;
+}
+
+#contact input[type="text"]:focus,
+#contact select:focus,
+#contact textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Submit button */
+.btn-main-button {
+  background-color: #007BFF;
+  color:white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.btn-main-button:hover {
+  background-color: #0056b3;
+}
+
+
